@@ -42,6 +42,7 @@ header{
     text-align: center;
 }
 
+/* COLORARE IL BACKGROUND SOLO ATTORNO AL TESTO! */
 .login{
     text-align: right;
 }
@@ -89,7 +90,18 @@ h1{
     margin: 0 20px;
 }
 
-/* DOPO ALLINEARE LA FRECCETTA AL TESTO! */
+.beige{
+    background-color: rgb(246,246,246);
+}
+.wave{
+    display: block;
+    color: rgb(246,246,246);
+}
+.downside {
+    rotate: 0.5turn;
+}
+
+/* ALLINEARE LA FRECCETTA AL TESTO! */
 .arrow { 
     font-size: 25px;
     position: relative;
@@ -108,12 +120,10 @@ section > .container{
 
 .big-card{
     flex-basis: 55%;
-    /* background-color: aquamarine; */
 }
 
 .small-card{
     flex-basis: 45%;
-    /* background-color: coral; */
 }
 
 .biggest-card{
@@ -164,7 +174,7 @@ footer{
 .final{
     height: 600px;
     justify-content: space-around;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid  rgb(143,160,225);
 }
 h4{
     color:rgb(115,137,218) ;
@@ -188,6 +198,7 @@ ul{
     color: rgb(115,137,218);
 }
 
+/* SISTEMARE DIMENSIONE BANDIERA! */
 .flag{
     color: white;
 }
