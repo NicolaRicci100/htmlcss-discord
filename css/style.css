@@ -164,6 +164,7 @@ footer{
 .final{
     height: 600px;
     justify-content: space-around;
+    border-bottom: 2px solid white;
 }
 h4{
     color:rgb(115,137,218) ;
