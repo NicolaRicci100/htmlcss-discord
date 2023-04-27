@@ -13,6 +13,9 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
 
 /* impostazioni header */
 
@@ -83,77 +86,67 @@ h1{
 }
 
 .arrow {
-    font-size: 50px;
-    align-self: center;
+    font-size: 25px;
     position: relative;
 }
 
 
+/* impostazioni main */
 
-/* .nav > div{
-    height: 30px;
-    width: 200px;
-    /* background-color: rgb(218,165,32);
-    border: 1px dashed black;
-    padding: 3px;
-}    
 
-.link{
-    width: 500px;
+section{
+    height: 600px;
+    padding: 60px 0;
+}
+section > .container{
+    height: 100%;
+}
+
+.big-card{
+    flex-basis: 55%;
+    /* background-color: aquamarine; */
+}
+
+.small-card{
+    flex-basis: 45%;
+    /* background-color: coral; */
+}
+
+.biggest-card{
+    flex-basis: 100%;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+.small-card > div{
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.last-title > div{
+    line-height: 25px;
+    font-size: 20px;
+    padding: 0 200px;
+}
+
+.last-title{
     text-align: center;
 }
-.login{
-    text-align: right;
-}
-*/
 
-/* impostazioni main */
+.stars{
+    font-size: 30px;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-basis: 100%;
+    padding-top: 200px;
+}
+
 /*
-.background{
-    background-image: url(../img/jumbo.png);
-}
-.container{
-    min-height: 400px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-section:nth-child(1){
-    background-color: rgb(2,0,139);
-}
-section:nth-child(3){
-    background-color: rgb(211,211,211);
-}
-section:nth-child(5){
-    background-color: rgb(211,211,211);
-}
-section:nth-child(6){
-    background-color: rgb(35,39,42);
-}
-
-.card{
-    background-color: rgb(238,129,237);
-    height: 300px;
-    width: 600px;
-    border: 1px dashed black;
-}
-
-.bluecard{
-    background-color: rgb(29,144,255);
-    height: 300px;
-    width: 500px;
-    border: 1px dashed black;
-}
-
-.pinkcard{
-    background-color: rgb(254,192,202);
-    height: 300px;
-    width: 250px;
-    border: 1px dashed black;
-}
-
 .greencard{
     background-color: rgb(34,140,33);
     height: 600px;
@@ -209,4 +202,5 @@ div > p{
     margin: 15px 0 15px;
     border: 1px dashed black;
 }
+
 */
