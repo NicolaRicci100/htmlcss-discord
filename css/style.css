@@ -8,22 +8,95 @@ body{
     font-family: sans-serif;
 }
 
-/* impostazioni header */
-header{
-    display: flex;
-    height: 50px;
-    background-color: rgb(173,216,230) ;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
 }
-header > div{
+
+
+/* impostazioni header */
+
+header{
+    background-image: url(../img/jumbo.png);
+    height: 100%;
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav > * {
+    padding: 10px;
+    flex-basis: 20%;
+}
+
+.link{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.login{
+    text-align: right;
+}
+
+.jumbo{
+    height: 500px;
+    padding: 50px;
+}
+
+.card{
+    text-align: center;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.card-text{
+    line-height: 30px;
+    padding: 40px 0 40px;
+    font-size: 20px
+}
+
+.white{
+    background-color: white;
+}
+.grey{
+    background-color: rgb(35,39,42);
+    color: white;
+}
+
+.interaction{
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.arrow {
+    font-size: 50px;
+    align-self: center;
+    position: relative;
+}
+
+
+
+/* .nav > div{
     height: 30px;
     width: 200px;
-    background-color: rgb(218,165,32);
+    /* background-color: rgb(218,165,32);
     border: 1px dashed black;
     padding: 3px;
-}
+}    
 
 .link{
     width: 500px;
@@ -32,9 +105,13 @@ header > div{
 .login{
     text-align: right;
 }
-
+*/
 
 /* impostazioni main */
+/*
+.background{
+    background-image: url(../img/jumbo.png);
+}
 .container{
     min-height: 400px;
     display: flex;
@@ -102,7 +179,7 @@ section:nth-child(6){
 }
 
 /* impostazioni footer */
-
+/*
 .line{
     height: 1px;
     color: white;
@@ -132,3 +209,4 @@ div > p{
     margin: 15px 0 15px;
     border: 1px dashed black;
 }
+*/
