@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .container{
@@ -39,13 +39,13 @@ header{
 }
 
 .link{
-    flex-grow: 1;
     text-align: center;
 }
 
 .login{
     text-align: right;
 }
+
 
 .jumbo{
     height: 500px;
@@ -77,6 +77,10 @@ h1{
     background-color: rgb(35,39,42);
     color: white;
 }
+.blue{
+    background-color: rgb(143,160,225);
+    color: white;
+}
 
 .interaction{
     padding: 15px 20px;
@@ -85,14 +89,14 @@ h1{
     margin: 0 20px;
 }
 
-.arrow {
+/* DOPO ALLINEARE LA FRECCETTA AL TESTO! */
+.arrow { 
     font-size: 25px;
     position: relative;
 }
 
 
 /* impostazioni main */
-
 
 section{
     height: 600px;
@@ -116,6 +120,10 @@ section > .container{
     flex-basis: 100%;
 }
 
+.center{
+    justify-content: center;
+}
+
 h2{
     font-size: 40px;
     line-height: 50px;
@@ -137,70 +145,44 @@ h2{
 }
 
 .stars{
+    padding-top: 100px;
+    padding-bottom: 30px;
     font-size: 30px;
     text-align: center;
-    background-image: url(../img/stars.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    flex-basis: 100%;
-    padding-top: 200px;
 }
 
-/*
-.greencard{
-    background-color: rgb(34,140,33);
-    height: 600px;
-    width: 750px;
-    border: 1px dashed black;
-    margin: 50px;
-}
-
-.lastcard{
-    background-color: rgb(239,128,128);
-    height: 375px;
-    width: 200px ;
-    border: 1px dashed black;
-    margin: 10px 0 30px;
-}
-
-.smallcard{
-    background-color: rgb(33,177,169);
-    height: 375px;
-    width: calc(550px / 4);
-    border: 1px dashed white;
-    margin: 10px 0 30px;
+.last-bottom{
+    text-align: center;
+    padding-bottom: 100px;
 }
 
 /* impostazioni footer */
-/*
-.line{
-    height: 1px;
-    color: white;
-}
-
-.foot{
-    min-height: 100px;
-    display: flex;
-    justify-content: center;
-    align-content: flex-end;
-    flex-wrap: wrap;
+footer{
     background-color: rgb(35,39,42);
 }
-.endcard{
-    margin-top: 10px;
-    background-color: rgb(127,255,211);
-    min-height: 50px;
-    width: 750px;
-    display: flex;
-    justify-content: space-between;
+
+.final{
+    height: 600px;
+    justify-content: space-around;
+}
+h4{
+    color:rgb(115,137,218) ;
+    font-size: 35px;
 }
 
-div > p{
-    background-color: rgb(255,182,193);
-    display: inline-block;
-    padding: 3px;
-    margin: 15px 0 15px;
-    border: 1px dashed black;
+.column-max{
+    flex-basis: 30%;
 }
 
-*/
+.column{
+    flex-basis: 15%;
+    line-height: 35px;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+}
+ul{
+    color: rgb(115,137,218);
+}
