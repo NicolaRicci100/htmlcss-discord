@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* impostazioni header */
+header{
+    display: flex;
+    height: 50px;
+    background-color: rgb(173,216,230) ;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+header > div{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(218,165,32);
+    border: 1px dashed black;
+    padding: 3px;
+}
+
+.link{
+    width: 500px;
+    text-align: center;
+}
+.login{
+    text-align: right;
+}
+
+
+/* impostazioni main */
+.container{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+section:nth-child(1){
+    background-color: rgb(2,0,139);
+}
+section:nth-child(3){
+    background-color: rgb(211,211,211);
+}
+section:nth-child(5){
+    background-color: rgb(211,211,211);
+}
+section:nth-child(6){
+    background-color: rgb(35,39,42);
+}
+
+.card{
+    background-color: rgb(238,129,237);
+    height: 300px;
+    width: 600px;
+    border: 1px dashed black;
+}
+
+.bluecard{
+    background-color: rgb(29,144,255);
+    height: 300px;
+    width: 500px;
+    border: 1px dashed black;
+}
+
+.pinkcard{
+    background-color: rgb(254,192,202);
+    height: 300px;
+    width: 250px;
+    border: 1px dashed black;
+}
+
+.greencard{
+    background-color: rgb(34,140,33);
+    height: 600px;
+    width: 750px;
+    border: 1px dashed black;
+    margin: 50px;
+}
+
+.lastcard{
+    background-color: rgb(239,128,128);
+    height: 375px;
+    width: 200px ;
+    border: 1px dashed black;
+    margin: 10px 0 30px;
+}
+
+.smallcard{
+    background-color: rgb(33,177,169);
+    height: 375px;
+    width: calc(550px / 4);
+    border: 1px dashed white;
+    margin: 10px 0 30px;
+}
+
+/* impostazioni footer */
+
+.line{
+    height: 1px;
+    color: white;
+}
+
+.foot{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    background-color: rgb(35,39,42);
+}
+.endcard{
+    margin-top: 10px;
+    background-color: rgb(127,255,211);
+    min-height: 50px;
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div > p{
+    background-color: rgb(255,182,193);
+    display: inline-block;
+    padding: 3px;
+    margin: 15px 0 15px;
+    border: 1px dashed black;
+}
