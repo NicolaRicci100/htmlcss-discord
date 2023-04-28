@@ -101,12 +101,6 @@ h1{
     rotate: 0.5turn;
 }
 
-/* ALLINEARE LA FRECCETTA AL TESTO! */
-.arrow { 
-    font-size: 25px;
-    position: relative;
-}
-
 
 /* impostazioni main */
 
@@ -159,6 +153,9 @@ h2{
     padding-bottom: 30px;
     font-size: 30px;
     text-align: center;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .last-bottom{
@@ -203,7 +200,7 @@ ul{
     color: white;
 }
 
-i{
+div > i{
     font-size: 20px;
     color: white;
     padding: 10px;
